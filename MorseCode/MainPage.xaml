@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MorseCode.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+       
+        <Button Text="Click for a Dot"  Clicked="Dot_ClickedOne" TextColor="Black" BackgroundColor="Coral" CornerRadius="25"></Button>
+        <Button Text="Click for a Dash"  Clicked="Dash_ClickedOne" TextColor="Black" BackgroundColor="Aqua" CornerRadius="25"></Button>
+        <Button Text="Click for a Space" Clicked="Space_ClickedOne" TextColor="Black" BackgroundColor="Aquamarine" CornerRadius="25"></Button>
+
+        <Label x:Name="In_char1" FontSize="30" TextColor="Black" Margin="30, 10, 30, 10" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Beige"></Label>
+        <Label x:Name="Out_char1" FontSize="20" TextColor="Black" Margin="30, 10, 30, 10" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Beige"></Label>
+
+        <Label x:Name="Out_char" FontSize="20" TextColor="Black" Margin="30, 10, 30, 10" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Beige"></Label>
+        <Label x:Name="In_char" FontSize="30" TextColor="Black" Margin="30, 10, 30, 10" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Beige"></Label>
+
+        <Button Text="Click for a Dot"  Clicked="Dot_Clicked" TextColor="Black" BackgroundColor="Aquamarine" CornerRadius="25"></Button>
+        <Button Text="Click for a Dash"  Clicked="Dash_Clicked" TextColor="Black" BackgroundColor="Aqua" CornerRadius="25"></Button>
+        <Button Text="Click for a Space" Clicked="Space_Clicked" BackgroundColor="Coral" CornerRadius="25"></Button>
+    
+    </StackLayout>
+
+</ContentPage>
